@@ -1,0 +1,57 @@
+.header{
+    height: 5rem;
+    background-color: #fff;
+}
+footer{
+    text-align: center;
+    background-color: rgb(240, 240, 240)!important;
+}
+.header-top{
+    height: 2.5rem;
+    border-bottom: 1px solid #1DA57A;;
+    display: flex;
+    align-items: center;
+}
+.header-top>span{
+    flex: 1;
+    margin-left: 60px;
+}
+.header-top>button{
+    flex: 1;
+    margin-right: 60px;
+    text-align: right;
+}
+.header-bottom{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.header-bottom>h2{
+    margin-left: 60px;
+    font-size: 14px;
+    flex: 1;
+    position: relative;
+}
+.header-bottom>h2::after{
+    position: absolute;
+    content: "";
+    top: 105%;
+    left: 0%;
+    border: 20px solid transparent;
+    border-top: 20px solid white;
+    
+}
+.header-bottom>div{
+    margin-right: 60px;
+    text-align: right;
+    flex: 1;
+}
+.header-bottom>div>img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 8px;
+}
+.header-top>span>span{
+    font-size: 16px;
+    color: black;
+}

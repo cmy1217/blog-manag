@@ -1,0 +1,47 @@
+const config =[
+    {
+        path:'/',
+        title:'首页'
+    },
+    {
+        path:'/home',
+        title:'首页'
+    },
+    {
+        path:'/article',
+        title:'文章'
+    },
+    {
+        path:'/article/add',
+        title:'文章'
+    },
+    {
+        path:'/article/update',
+        title:'文章'
+    },
+    {
+        path:'/article/detail',
+        title:'文章'
+    },
+    {
+        path:'/role',
+        title:'角色管理'
+    },
+    {
+        path:'/charts/line',
+        title:'柱形图'
+    },
+    {
+        path:'/charts',
+        title:'柱形图'
+    },
+    {
+        path:'/charts/pie',
+        title:'柱形图'
+    },
+    {
+        path:'/comment',
+        title:'用户评论'
+    }
+]
+export default config

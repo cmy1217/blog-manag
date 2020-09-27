@@ -1,0 +1,108 @@
+.login{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image: url(http://47.99.130.140:8888/public/images/login_bg1.jpg);
+}
+.login-form input{
+  margin-left: 15px;
+}
+.login-form-one{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 240px;
+    height: 300px;
+    padding: 100px 40px 40px;
+    box-sizing: content-box;
+    background: linear-gradient(230deg,rgba(53,57,74,0),#000);
+   
+}
+.login-form-one span{
+    background-color: transparent!important;
+    color: white;
+    outline: none!important;
+    border: none!important;
+    
+    box-shadow: none;
+    padding-right: 0;
+    
+}
+
+.login-form-one span:hover{
+    background-color: transparent!important;
+    color: white;
+    outline: none!important;
+    border: none!important;
+    box-shadow: none;
+    padding-right: 0;
+}
+.ant-form-item-explain div {
+    margin-left: 10px;
+}
+
+
+
+.login-form-one form input{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-color: transparent!important;
+    box-shadow: none;
+    padding-right: 0;
+    background-image: none;
+}
+
+ .login-form {
+    max-width: 300px;
+  }
+   .login-form-forgot {
+    float: right;
+  }
+   .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+ .login-form-button {
+    width: 40%;
+    border-radius: 4px;
+  }
+
+#root{
+    min-height: 100%;
+    height: 100%;
+}
+.code{
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+
+}
+.radio-login{
+    background-color: transparent;
+    
+}
+.radio-login div{
+    background-color: transparent;
+}
+.radio-login label{
+    background-color: transparent!important;
+}
+.radio-login span{
+    background-color: transparent;
+    
+}
+.ant-radio-button-wrapper-checked>span:nth-child(2){
+    color: #1DA57A;
+}
+.radio-login>label:nth-child(2){
+    margin-left: 10px;
+}
+
+
