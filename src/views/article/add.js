@@ -12,14 +12,16 @@ class UpdateAndAdd extends Component {
 
     formRef = React.createRef();
     richmarkdown = React.createRef();
-
+    
     onFinish = async (value) =>{
       let md = this.richmarkdown.current.state.value
-      const result = await addArticle({value,md})
+      const id = this.props.location?.state?.id
+      const result = await addArticle({value,md, id})
       const {state, msg} = result
       if(state){
         this.formRef.current.resetFields()
         message.success(msg)
+        this.props.history.goBack()
       }
       else{
         message.error(msg)

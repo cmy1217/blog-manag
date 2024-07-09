@@ -14,7 +14,7 @@ export const getByCation = (cation,page,num) => axios('/carticle/search',{cation
 
 export const deleteArticle = (id) => axios('/carticle/delete',{id})
 
-export const addArticle = ({md,value}) => axios('/carticle/add',{md,value},'POST')
+export const addArticle = (params) => axios('/carticle/add',params,'POST')
 
 export const getRole = (page,num) => axios('/crole',{page,num})
 

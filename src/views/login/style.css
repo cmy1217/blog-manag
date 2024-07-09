@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
-    background-image: url(http://47.99.130.140:8888/public/images/login_bg1.jpg);
+    background-image: url('https://images.pexels.com/photos/6778692/pexels-photo-6778692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 .login-form input{
   margin-left: 15px;

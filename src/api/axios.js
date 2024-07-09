@@ -1,7 +1,7 @@
 import axios from 'axios'
 import {message} from 'antd'
 axios.defaults.baseURL='/network'
-export default function(url, data={}, type='GET') {
+export default function(url, data={}, type='post') {
     return new Promise((resolve,reject)=>{
         let promise
         if(type==='GET'){
