@@ -52,7 +52,6 @@ class Header extends Component {
 
 
     componentDidMount(){
-        this.setWeather()
         this.getTime()
     }
 
@@ -75,7 +74,6 @@ class Header extends Component {
                     <h2>每一个不曾起舞的日子，都是对生命的辜负。</h2>
                     <div>
                         <span>{this.state.timer}</span>
-                        <img src={this.state.dayPictureUrl} alt=""/>
                         <span>{this.state.weather}</span>
                     </div>
                 </div>
